@@ -10,7 +10,8 @@ const Layout = () => {
 
   return (
     <div className='w-full'>
-        <div className='flex ml-16'>
+        <Header />
+        <div className='flex ml-16 md:ml-56'>
             <Sidebar/>
             <Outlet />
         </div>

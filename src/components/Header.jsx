@@ -4,10 +4,10 @@ import { CiSearch } from "react-icons/ci";
 
 const Header = () => {
   return (
-    <div className='flex justify-between items-center p-4'>
-       <div className='hidden md:flex items-center'>
+    <div className='flex justify-between items-center p-4 ml-16'>
+       <div className='items-center'>
           <h1 className='text-xs'>Welcome Back!</h1>
-          <p className='ml-1 text-xl font-semibold'>Jane</p>
+          <p className='text-xl font-semibold'>Jane</p>
        </div>
        <div className='flex items-center space-x-5'>
           <div className='flex items-center'>
